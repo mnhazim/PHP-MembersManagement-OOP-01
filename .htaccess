@@ -1,0 +1,7 @@
+ErrorDocument 404 404_error__You_cannot_access_this_site
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ /pages/errors/404.php [L]

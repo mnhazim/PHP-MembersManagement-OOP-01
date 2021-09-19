@@ -10,7 +10,7 @@
 <body class="text-center">
 	<div class="container">
 		<form class="form-signin" method="post" action="controller/control.php?mod=login">
-		    <h1 class="h3 mb-3 font-weight-normal">SISTEM<br>PENDAFTARAN AHLI</h1>
+		    <h1 class="h3 mb-3 font-weight-normal">SISTEM<br>PENDAFTARAN AHLI BARU</h1>
 		    <label for="inputEmail" class="sr-only">Email address</label>
 		    <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required autofocus autocomplete="off">
 		    <label for="inputPassword" class="sr-only">Password</label>
@@ -20,10 +20,6 @@
 		    </div>
 		    <button class="btn btn-lg btn-primary btn-block" type="submit">Log Masuk</button>
 		    Tiada akaun? sila klik <a href="ahli/daftar.php">Daftar Baru</a>
-		
-		    	
-		   
-		    
 		    <div class="mt-5 mb-3">
 			    <img class="" src="store/bootstrap.png" width="30%" height="auto">
 			    <img class="" src="store/php.png" width="30%" height="auto">

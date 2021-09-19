@@ -11,6 +11,7 @@
 	<div class="container">
 		<form class="form-signin" method="post" action="controller/control.php?mod=login">
 		    <h1 class="h3 mb-3 font-weight-normal">SISTEM<br>PENDAFTARAN AHLI BARU</h1>
+			<h1>Hello World</h1>
 		    <label for="inputEmail" class="sr-only">Email address</label>
 		    <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required autofocus autocomplete="off">
 		    <label for="inputPassword" class="sr-only">Password</label>
